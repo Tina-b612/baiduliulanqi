@@ -1,1 +1,1 @@
-# baiduliulanqi
+# 模拟百度浏览器 主要运用jquery，css3 animation、transform。

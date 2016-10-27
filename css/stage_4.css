@@ -1,0 +1,175 @@
+#content .stage_4 {
+	background: #fff;
+	display: none;
+}
+#content .stage_4 .stage_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 510px;
+	height: 400px;
+	margin-top: -227px;
+	margin-left: -255px;
+}
+
+@keyframes stage_4_icon {
+    from{
+        transform: scale(.5);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.stage_4_icon {
+	position: relative;
+	width: 170px;
+	height: 170px;
+	z-index: 1;
+	margin: 0 auto 42px;
+    animation: stage_4_icon 1s linear forwards;
+}
+
+/*变色龙*/
+.stage-4-icon-chameleon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 170px;
+	height: 170px;
+	background: url(../img/icon-chameleon_4cb9f9f.png) no-repeat;
+}
+/*色盘*/
+.stage-4-icon-chameleon-turnplate{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 168px;
+	height: 168px;
+	z-index: 2;
+	overflow: hidden;
+}
+@keyframes cycle {
+	from{transform: rotate(0);}
+	to{transform: rotate(360deg);}
+}
+.stage-4-icon-palette{
+	position: absolute;
+	top: -521px;
+	left: -328px;
+	width: 984px;
+	height: 984px;
+	background: url(../img/bg-palette_97ec0ce.jpg) no-repeat;
+	animation: cycle 10s linear 2.2s infinite normal none;
+}
+/*碎片*/
+.stage-4-icon-fragment {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: -320px;
+	margin-top: -320px;
+	width: 440px;
+	height: 440px;
+	border: 100px solid #fff;
+}
+.stage-4-icon-fragment-cycle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/icon-chameleon-fragment_cdd1b57.png) no-repeat;
+	animation: cycle 60s linear 2.2s infinite normal none;
+}
+.stage-4-icon-fragment-turnplate {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index:0;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: -315px;
+	margin-top: -315px;
+	width: 430px;
+	height: 430px;
+	border: 100px solid #fff;
+}
+.stage-4-icon-palette {
+	position: absolute;
+	top: -521px;
+	left: -328px;
+	width: 984px;
+	height: 984px;
+	background: url(../img/bg-palette_97ec0ce.jpg) no-repeat;
+	animation: cycle 10s linear 2.2s infinite normal none;
+}
+
+
+
+
+
+
+.stage_4_title {
+	position: relative;
+    top: 500px;
+    opacity: 0;
+	margin: 0 auto 13px;
+	width: 276px;
+	height: 38px;
+	z-index: 5;
+	background: url(../img/text-stage-3-title-png8_77e7532.png) no-repeat;
+}
+
+.stage_4_text {
+	position: relative;
+    top: 500px;
+    opacity: 0;
+	width: 510px;
+	z-index: 5;
+	margin: 0 auto 20px;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #333;
+	text-align: center;
+}
+
+.stage_4_button_download {
+    position: relative;
+    top: 500px;
+    opacity: 0;
+    display: block;
+    width: 186px;
+    height: 54px;
+    z-index: 5;
+    margin: 0 auto 10px;
+    background: url(../img/bg-button-download.png) no-repeat;
+    text-indent: -1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
